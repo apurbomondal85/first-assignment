@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+    text-transform: capitalize;
+}
+body{
+    background-color: #ffffff;
+}
+/* ===header-section=== */
+header{
+    padding: 200px 230px;
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+header .header-text{
+    width: 40%;
+}
+.header-text .title{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.header-text .sub-title{
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    line-height: 20px;
+    padding-left: 80px;
+}
+.btn{
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #005FAC;;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+/* ====person-section==== */
+section{
+    padding: 80px 230px;
+}
+.failures-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.failures-section .right{
+    padding-right: 130px;
+    padding-top: 150px;
+}
+.failures-section .right .per-title{
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.failures-section .right .per-sub{
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.right .list .item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #333;
+}
+
+/* ====plan-section=== */
+.plan-title{
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 50px;
+}
