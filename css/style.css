@@ -59,7 +59,7 @@ section{
     padding-top: 150px;
 }
 .failures-section .right .per-title{
-    font-size: 35px;
+    font-size: 40px;
     color: #000000;
     margin-bottom: 10px;
 }
@@ -80,7 +80,7 @@ section{
 /* ====plan-section=== */
 .plan-title{
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     color: #000000;
     margin-bottom: 60px;
 }
@@ -100,4 +100,17 @@ section{
 }
 .card .card-item .card-sub{
     color: #333;
+}
+
+/* ---banner-section---- */
+.banner{
+    padding: 75px 85px;
+    background-image: url("../images/gradient1.png"), url("../images/watch.png") ;
+    background-repeat: no-repeat;
+}
+.banner .banner-title{
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    width: 40%;
 }
